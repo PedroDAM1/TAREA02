@@ -23,11 +23,13 @@ main{
 
 .title-main-game{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 5px;
+    left: 5px;
     color: var(--text-color);
-    padding: 10px;
+    padding: 5px;
     font-size: 1.4rem;
+    background-color: var(--secundary-ascent-color);
+    border-radius: 16px;
 }
 
 

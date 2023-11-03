@@ -1,3 +1,7 @@
+main{
+    color: var(--text-color);
+}
+
 .detail-grid{
     display: grid;
     grid-template:
@@ -112,6 +116,7 @@
     align-self: center;
     gap: 10px;
     font-size: 1.2rem;
+    color: var(--dark-text-color);
 }
 
 .price-total-game-detail{
@@ -119,8 +124,9 @@
 }
 
 .discount-price-game-detail{
-    color: var(--ascent-color);
-    font-weight: 700;
+    color: rgb(255, 106, 0);
+    font-weight: 800;
+    text-shadow: 2px 2px 5px black;
 }
 
 .price-final-game-detail{
@@ -235,6 +241,7 @@
 }
 
 @media (max-width: 475px) {
+
     .detail-grid{
         width: 100%;
     }
@@ -255,5 +262,11 @@
 
     .purchase{
         justify-content: space-evenly;
+    }
+}
+
+@media (width < 600px){
+    html{
+        font-size: 90%;
     }
 }
